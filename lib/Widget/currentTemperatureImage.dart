@@ -1,0 +1,1 @@
+String currentTemperatureImage(String temperature) => "lib\\assets\\${temperature.toLowerCase()}.png";
