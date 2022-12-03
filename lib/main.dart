@@ -12,7 +12,6 @@ List<String> global = [];
 String iconTemp = "";
 
 const api = "api.openweathermap.org";
-const apiData = "data/2.5/weather?lat=62.03389&lon=129.73306&appid=a525286acafc621f7adc2d017a76d4da";
 const int kelvin = 273;
 
 Future fetch() async{
@@ -21,9 +20,9 @@ Future fetch() async{
     host: api,
     path: "data/2.5/weather/",
     queryParameters: {
-      "lat": "-23.8950",
-      "lon": "-46.4253",
-      "appid": "a525286acafc621f7adc2d017a76d4da",
+      "lat": "",
+      "lon": "",
+      "appid": "",
       }
   );
 
